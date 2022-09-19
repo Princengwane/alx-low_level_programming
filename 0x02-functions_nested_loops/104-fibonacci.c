@@ -2,7 +2,6 @@
 
 /**
  * main - finds and prints the first 98 Fibonacci numbers
- * 
  * Return: ALways 0 (Success)
  */
 int main(void)
