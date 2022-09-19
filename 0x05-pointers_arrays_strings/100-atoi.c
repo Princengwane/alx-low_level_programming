@@ -21,7 +21,7 @@ int _atoi(char *s)
 	p = 1;
 	for (j = 0; j <= i; j++)
 	{
-		c = *(s + j)
+		c = *(s + j);
 		if (c == '-')
 		{
 			p *= -1;
