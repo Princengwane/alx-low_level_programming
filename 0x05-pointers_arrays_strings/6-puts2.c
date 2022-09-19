@@ -3,13 +3,13 @@
 /**
  * puts2 - funct that prints every other char of a string
  * @str: string to print
- * Return: void 
+ * Return: void
  */
 void puts2(char *str)
 {
 	 int i, j;
 	 char c;
-
+	
 	 c = *str;
 	 i = 0;
 	 while (c)
