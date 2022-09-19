@@ -18,7 +18,7 @@ int main(void)
 		sum = fib1 + fib2;
 
 		if(sum > 4000000)
-			break
+			break;
 
 		if ((sum % 2) == 0)
 			total_sum += sum;
@@ -28,5 +28,5 @@ int main(void)
 	}
 	printf("%.0f\n", total_sum);
 
-	rerutn (0);
+	return (0);
 }
