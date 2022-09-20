@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * puts_half - funct that prints a string followed by a line
+ * puts_half - function that prints a string followed by a line
  * @str: string to print
  * Return: void
  */
-
 void puts_half(char *str)
 {
 	int i, j;
@@ -16,7 +15,7 @@ void puts_half(char *str)
 	while (c)
 	{
 		i++;
-		c = *(str + 1);
+		c = *(str + i);
 	}
 	if (i % 2 == 0)
 		j = i / 2;
